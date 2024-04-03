@@ -1,5 +1,7 @@
+install.packages("tidyverse")
 library(tidyverse) #helps wrangle data
 # Use the conflicted package to manage conflicts
+install.packages("conflicted")
 library(conflicted)
 # Set dplyr::filter and dplyr::lag as the default choices
 conflict_prefer("filter", "dplyr")
